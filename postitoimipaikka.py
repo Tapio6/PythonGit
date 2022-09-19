@@ -1,6 +1,5 @@
 import http_pyynto
 
-
 def etsi_toimipaikka(postinumero: str) -> str:
     '''
     Etsii ja palauttaa annettua postinumeroa vastaavan toimipaikan nimen. Jos nimeä ei löydy,

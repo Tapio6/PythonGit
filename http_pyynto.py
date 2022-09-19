@@ -1,7 +1,6 @@
 import urllib.request
 import json
 
-
 def hae_postinumerot() -> dict:
     '''
     Tekee HTTP-pyynnön GitHubissa sijaitsevaan JSON-tiedostoon ja palauttaa Python-sanakirjan,

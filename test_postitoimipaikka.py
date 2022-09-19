@@ -14,7 +14,6 @@ ERIKOISTAPAUKSET = {
     "90210": "BEVERLY HILLS"
 }
 
-
 def test_helsingin_postinumero():
     tulos = postitoimipaikka.etsi_toimipaikka('00100')
 

@@ -1,6 +1,5 @@
 import http_pyynto
 
-
 def ryhmittele_toimipaikoittain(numero_sanakirja: dict) -> dict:
     '''
     Palauttaa annetusta postinumerosanakirjasta uuden version, jossa avaimina toimivat toimipaikkojen nimet.

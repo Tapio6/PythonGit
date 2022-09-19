@@ -48,7 +48,6 @@ def test_etsi_postinumero_toimii_kirjainkoosta_riippumatta(ryhmitelty):
 
     assert numerot == ["43800"]
 
-
 def test_etsi_smart_post_eri_kirjoitsasuilla(ryhmitelty):
     SMARTPOST = postinumerot.etsi_postinumerot('SMARTPOST', ryhmitelty)
     smartpost = postinumerot.etsi_postinumerot('smartpost', ryhmitelty)
